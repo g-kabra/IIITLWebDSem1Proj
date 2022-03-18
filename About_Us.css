@@ -1,0 +1,21 @@
+.container {
+   background-color: aliceblue;
+    padding: 20px 20px 20px 20px;
+    max-width:  85%;
+   display: flex;
+  }
+  .right-image{
+      margin: 10px;
+      width: 15%;
+      float: right;
+          
+   } 
+   .left-image {
+      margin: 10px ;
+      width: 15%;
+     float: left;
+    }
+    .text {
+      flex: 1 1 auto;
+    }
+  

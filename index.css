@@ -1,0 +1,81 @@
+.header {
+    height: 100px;
+    background-color: white;
+}
+
+carousel-item img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+.gal-des
+{
+    width: 100%;
+    max-width: 900px;
+    height: 800px;
+    background-color: rgb(233, 227, 227);
+    margin: 49px auto;
+    padding: 2.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+.img
+{
+    max-width:225px;
+    height: 225px;
+    border-radius: 100%;
+    margin-left:40px ;
+    margin-right: 40px; 
+}
+.img-1
+{
+    max-width:225px;
+    height: 225px;
+    border-radius: 100%;
+    margin-right: 65px; 
+}
+.text-1
+{
+    font-size: 17px; 
+    text-align: left;
+    max-width:360px;
+    width:90%;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lora', serif;
+}
+.block-1
+{
+    width:90%;
+    max-width:650px;
+    margin: 60px auto 0px auto;
+    text-align: left;
+    line-height: 2;
+    height:260px;
+    display: flex;
+    flex-direction: row;
+
+}
+.text-2
+{
+    font-size: 17px; 
+    text-align: left;
+    max-width:360px;
+    width:90%;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lora', serif;
+}
+.block-2
+{
+    width:90%;
+    max-width:650px;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    line-height: 2;
+    height:300px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
