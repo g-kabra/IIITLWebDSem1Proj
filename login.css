@@ -1,0 +1,148 @@
+#logo{
+    display: block;
+    margin: auto;
+    background-color: #f0f2f5;
+    font-family: inherit;
+    color: #ca5628;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+body {
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+    text-align: center;
+}
+#box{
+    display: block;
+    width: 437px;
+    height: 50%;
+    margin: auto;
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: beige;
+    
+}
+#quick{
+    margin-top: 0px;
+}
+#firstname{
+    width: 47%;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #cfcfcf;
+}
+#Surname{
+    width: 47%;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #cfcfcf;
+}
+#MBE{
+    width: 99%;
+    height: 30px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #cfcfcf;
+}
+#password{
+    width: 413px;
+    height: 30px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #cfcfcf;
+}
+.dob{
+    width: 100%;
+    display: block;
+
+}
+#dob{
+    display: block;
+    width: 200%;
+    float: left;
+    margin-left: -390px;
+    font-size: 14px;
+    color: #616161;
+}
+#dateob{
+
+    position: relative;
+    width: 100%;
+}
+#date{
+    position: relative;
+    margin-left: -5px;
+    width: 140px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #cfcfcf;
+}
+#month{
+    width: 130px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #cfcfcf;
+}
+#year{
+    width: 140px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #cfcfcf;
+}
+#gender > div {
+    display: inline-flex;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #cfcfcf;
+    padding: 5px;
+    margin: 5px;
+    width: 120px;
+}
+#gn{
+    margin-right: 370px;
+    color: #616161;
+    font-size: 14px;
+}
+#end{
+    font-size: 12px;
+    padding: 10px;
+    margin: auto;
+    color: #616161;
+}
+#submit{
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding:0 32px;
+    margin: 5%;
+    text-shadow: none;
+    width: 200px;
+}
+#padding{
+    margin-top: 2%;
+}
