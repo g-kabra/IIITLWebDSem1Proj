@@ -3,11 +3,17 @@
     background-color: white;
 }
 
-carousel-item img{
+.carousel-item img{
     width: 100%;
     object-fit: cover;
     
 }
+
+.carousel-fade{
+    animation-duration: 0ms;
+    animation-delay: 0ms;
+}
+
 .gal-des
 {
     width: 100%;
