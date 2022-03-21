@@ -2,50 +2,66 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="login.css">
-  <style>
-
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
 </head>
 
 <body>
-  <header>
-    <h1 id="logo">IIIT Lucknow</h1>
-  </header>
-  <main>
-    <form><div id="box">
-      <div class="up">
-        <h2>Student Login</h2>
-       </div>
-      <hr>
-      <p id="dob">Email address*</p>
-      <input type="email" name="" id="MBE" placeholder=" email address" required>
-      <div class="dob">
-        <p id="dob">Date of <birth></birth></p>
-      </div>
+    <div class="container">
+        <div class="left-side">
+            <img class="left-side-img"
+                src=https://lh5.googleusercontent.com/p/AF1QipOePHiSqor46kxkyYBlb5fBOx7Ki1QBtC6gmG07=w1080-k-no></img>
+            <div class="left-side-bg">
+                <div class="company-name"> <span style="font-style: italic; color:#fff;"><b> INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, LUCKNOW</b><hr align="left"><hr align="left" id="hr1"></span>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="sign-in-container login-font">
+                <div class="sign-in">
+                    <button id="signin" class="btn btn-default btn-header active" type="submit">Sign In</button>
+                </div>
+                <div class="sign-up">
+                    <button id="signup" class="btn btn-default btn-header" type="submit">Sign Up</button>
+                </div>
+                <div id="signup-tab" class="sign-up-information-container" style="display:none;">
+                    <div class="prompt-field">USERNAME</div>
+                    <input type="text" name="login-name" class="input-field" placeholder="Create a username">
+                    <div class="prompt-field">PASSWORD</div>
+                    <input type="password" name="login-password" class="input-field" placeholder="*************">
+                    <div class="prompt-field">E-MAIL ADDRESS</div>
+                    <input type="text" name="login-email" class="input-field" placeholder="Enter your e-mail address">
+                    <div class="terms-container">
+                        <input type="checkbox" class="terms-checkbox" value="terms_checkbox">
+                        <label class="terms-prompt">I accept the <span style="border-bottom: 1px solid #47C1B9">terms
+                                and conditions</span></label>
+                    </div>
 
-      <div id="dateob">
-        <input type="number" id="date" min="1" max="31" placeholder="DATE" required>
-        <input type="number" id="month" min="1" max="12" placeholder="MONTH" required>
-        <input type="number" id="year" min="1940" max="2022" placeholder="YEAR" required>
+                    <button class="btn btn-default btn-signup" type="submit">SIGN UP <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></button>
+                </div>
 
-      </div>
-          <p id="dob">Semester*</p>
-          <input  type="number" name="" id="MBE" placeholder=" " min="1" max="8" required>
-         <p id="dob">Password</p>
-         <input type="password" id="MBE" placeholder="PASSWORD">
-      
-         <input id="submit" type="submit" value="Login">
-         <div id="apadding">
-           <a href="signin.html" >Don't have account?</a>
-          </div>
-      </div>
-     </form>
- </main>
+                <div id="signin-tab" class="sign-up-information-container">
+                    <div class="prompt-field">USERNAME</div>
+                    <input type="text" name="login-name" class="input-field">
+                    <div class="prompt-field">PASSWORD</div>
+                    <input type="password" name="login-password" class="input-field">
+                    <div class="terms-container">
+                        <label class="terms-prompt"><span style="border-bottom: 1px solid #47C1B9">Forgot your
+                                password?</span></label>
+                    </div>
+                    <button class="btn btn-default btn-signup" type="submit">SIGN IN <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
 </body>
 
 </html>
