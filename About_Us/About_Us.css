@@ -1,0 +1,50 @@
+.header {
+   height: 100px;
+   background-color: white;
+}
+
+
+
+/* body {
+  background-color: #d9d9d9;
+} */
+
+.card{
+   background-image: linear-gradient(white, black);
+   margin: 20px;
+}
+
+.container{
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-head {
+  overflow: clip;
+}
+
+.card-img-top {
+  cursor: pointer;
+  transition: transform 250ms ease-in-out;
+}
+
+.card-img-top:hover{
+   transform: scale(1.1);
+}
+
+.card-title,
+.card-subtitle,
+.card-text {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.card-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-subtitle {
+  font-weight: 600;
+}
