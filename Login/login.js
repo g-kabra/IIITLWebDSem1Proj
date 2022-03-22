@@ -1,15 +1,19 @@
 $(document).ready(function() {
     $("#signup").click(function(){
-        $("#signin-tab").css("display", "none");
+        $("#signin-tab").fadeOut('fast');
+        setTimeout(function(){
+            $("#signup-tab").fadeIn("fast");
+        }, 250);
         $("#signup").css("color", "#47C1B9");
         $("#signin").css("color", "#FAFAFA");
-        $("#signup-tab").css("display", "");
     }); 
   
     $("#signin").click(function() {
-        $("#signup-tab").css("display", "none");
+        $("#signup-tab").fadeOut('fast');
+        setTimeout(function(){
+            $("#signin-tab").fadeIn("fast");
+        }, 250);
         $("#signin").css("color", "#47C1B9");
-        $("#signup").css("color", "#FAFAFA");
-        $("#signin-tab").css("display", "");
+        $("#signup").css("color", "#FAFAFA");        
     });
 });

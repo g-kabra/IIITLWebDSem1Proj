@@ -12,6 +12,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="index.css" />
   </head>
 
@@ -25,15 +26,15 @@
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div id="navbar" class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -58,7 +59,7 @@
                 <a class="dropdown-item" href="#">Recruitment</a>
                 <hr class="dropdown-divider" />
                 <a class="dropdown-item" href="#">Social Media links</a>
-              <div>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
@@ -73,7 +74,21 @@
             />
             <button class="btn btn-outline-dark" type="submit">Search</button>
           </form>
-          <button type="button" class="btn btn-outline-dark" style="margin: 6px;"><a href="./Login/login.html" style="color: rgb(124, 115, 115); text-decoration: none; margin: 2px;">Sign In / Sign Up</a></button>
+          <button
+            type="button"
+            class="btn btn-outline-dark"
+            style="margin: 6px"
+          >
+            <a
+              href="./Login/login.html"
+              style="
+                color: rgb(124, 115, 115);
+                text-decoration: none;
+                margin: 2px;
+              "
+              >Sign In / Sign Up</a
+            >
+          </button>
         </div>
       </div>
     </nav>
@@ -130,40 +145,111 @@
       <!-- <img src = "./resources/cecil-yang-EACNwJ9gDd4-unsplash.jpg" class = "banner-img" width = "100%" height = "500px"> -->
     </div>
     <div class="main">
-        <!-- This will have the main content of the home page -->
-        <div class="gal-des">
-          <div class="block-1">
-            
-            <div class ="text-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio dolorem adipisci, veritatis dolorum nostrum corporis tenetur consectetur deserunt tempore voluptas ipsam totam? Facere veniam sunt molestias enim velit explicabo ratione!</div>
-            <div><img src="https://images.unsplash.com/photo-1647533882992-c44e677b1cec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1002&q=80" class="img"></div>
+      <!-- This will have the main content of the home page -->
+      <div class="gal-des">
+        <div class="block-1">
+          <div class="text-1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+            dolorem adipisci, veritatis dolorum nostrum corporis tenetur
+            consectetur deserunt tempore voluptas ipsam totam? Facere veniam
+            sunt molestias enim velit explicabo ratione!
           </div>
-          <div class="block-2">
-          <div class ="text-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio dolorem adipisci, veritatis dolorum nostrum corporis tenetur consectetur deserunt tempore voluptas ipsam totam? Facere veniam sunt molestias enim velit explicabo ratione!</div>
-          <div><img src="https://images.unsplash.com/photo-1647451276551-3556064b252c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="img-1"></div>
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1647533882992-c44e677b1cec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1002&q=80"
+              class="img"
+            />
           </div>
         </div>
+        <div class="block-2">
+          <div class="text-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+            dolorem adipisci, veritatis dolorum nostrum corporis tenetur
+            consectetur deserunt tempore voluptas ipsam totam? Facere veniam
+            sunt molestias enim velit explicabo ratione!
+          </div>
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1647451276551-3556064b252c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              class="img-1"
+            />
+          </div>
+        </div>
+      </div>
       <!-- End of the main content of the home page -->
     </div>
-    <footer>
+    <footer class="main-footer">
       <!-- This will have the footer with more links and contact info -->
-      
+      <div class="links">
+        <table class="footer-table">
+          <tr>
+            <td class="footer-sections">About Us</td>
+            <td class="footer-sections">Clubs</td>
+            <td class="footer-sections">Quick Links</td>
+          </tr>
+          <tr>
+            <td class="footer-content">
+              Donec nec quam id tortor hendrerit interdum. Etiam vitae tortor ut
+              nunc dignissim facilisis. Donec eget nunc dui. Pellentesque sed
+              lectus lobortis libero pretium fermentum eget eu orci. Maecenas
+              augue nulla, finibus eu bibendum et, rutrum sed tellus. Maecenas
+              vitae est a ex elementum dignissim eu ac elit. Maecenas elementum.
+            </td>
+            <td class="footer-content">
+              <ul>
+                <li class="club-link-footer">Crotonia</li>
+                <li class="club-link-footer">Equinox</li>
+                <li class="club-link-footer">AfterDark</li>
+                <li class="club-link-footer">Estrella</li>
+                <li class="club-link-footer">Zephyr</li>
+              </ul>
+            </td>
+            <td class="footer-content">
+              <ul>
+                <li class="quick-link-footer">About Us</li>
+                <li class="quick-link-footer">Contact Us</li>
+                <li class="quick-link-footer">Blog</li>
+                <li class="quick-link-footer">Gallery</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <hr width="80%" style="margin: auto" />
+      <div class="footer-ending">
+        <span class="footer-copyright">
+          <p>This website is a copyright &copy; of IIITL 2022</p>
+        </span>
+        <span class="footer-social-media">
+          <a href = "#"><i class="fa-brands fa-facebook social-icon"></i></a>
+          <a href = "#"><i class="fa-brands fa-instagram social-icon"></i></a>
+          <a href = "#"><i class="fa-brands fa-twitter social-icon"></i></a>
+          <a href = "#"><i class="fa-brands fa-youtube social-icon"></i></a>
+        </span>
+      </div>
     </footer>
     <!-- JS links-->
-    <script src="./index.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <div class="scripts">
+      <script src="./index.js"></script>
+      <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://kit.fontawesome.com/b08f567665.js"
+        crossorigin="anonymous"
+      ></script>
+    </div>
   </body>
 </html>
