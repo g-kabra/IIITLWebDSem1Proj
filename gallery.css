@@ -7,8 +7,7 @@
   
   body {
     font-family: Raleway;
-    background-color: #918b8b;
-    background-image: repeating-linear-gradient(black,grey,rgb(228, 222, 222), grey,black);
+    background-color: aliceblue;
   }
   
   .heading {
@@ -19,7 +18,7 @@
       padding: 8px;
       margin: 3%;
       margin-top: 0%;
-      color: rgb(255, 255, 255);
+      color: black;
   }
 
   .subheading {
@@ -31,7 +30,7 @@
       margin: 2%;
   }
   a {
-    color: rgb(194, 193, 193);
+    color: gray;
     margin-left: 10px; margin-right: 10px;
   }
   
@@ -57,9 +56,10 @@
     width: fit-content;
     overflow: hidden;
     display: inline-block;
-    color: rgb(255, 255, 255);
+    color: white;
+    border-color: black;
     position: relative;
-    background-color: rgb(230, 225, 225);
+    background-color: black;
     border-width: medium;
     border-radius: 4%;
     border-right-style: solid; border-top-style: solid;
@@ -120,4 +120,8 @@
   #library {
     height: 200px;
     width: 400px;
+  }
+  .hyper
+  {
+    text-decoration: none;
   }
