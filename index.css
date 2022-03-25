@@ -75,26 +75,24 @@
 
 .main-footer {
   width: 100%;
-  height: 300px;
   background-color: gray;
   color: white;
 }
 
-.footer-table {
-  display: flex;
-  justify-content: space-around;
-  padding: 2% 10%;
+
+.footer-sections {
+  text-align: left;
+  margin-top: 3%;
 }
 
-.footer-sections:nth-of-type(1) {
-  width: 60%;
-}
-
-.footer-content:nth-of-type(1) {
+.footer-content {
   font-size: 12px;
+  padding-top: 3%;
+  margin: auto;
 }
-.footer-sections{
-  font-size: 18px;
+
+.footer-about-us-content{
+  text-align: left;
 }
 
 .footer-content ul {
@@ -110,15 +108,17 @@
 }
 
 .footer-ending {
-  margin: auto;
-  padding-top: 2%;
-  width: 80%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.footer-copyright {
-  display: inline-block;
-}
+
+/* .footer-copyright {
+  padding-right: 50%;
+} */
+
 .footer-social-media {
-  float: right;
   font-size: 25px;
 }
 .social-icon {
@@ -129,63 +129,59 @@
   text-align: center;
   border-radius: 50%;
   color: white;
-  transition:all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
-.fa-facebook:hover{
-    background-color: blue;
+.fa-facebook:hover {
+  background-color: blue;
 }
-.fa-instagram:hover{
-    background-color: rgba(254,114,252,1);
+.fa-instagram:hover {
+  background-color: rgba(254, 114, 252, 1);
 }
-.fa-twitter:hover{
-    background-color: rgb(47, 196, 255);
+.fa-twitter:hover {
+  background-color: rgb(47, 196, 255);
 }
-.fa-youtube:hover{
-    background-color: rgba(202, 17, 0, 0.904);
+.fa-youtube:hover {
+  background-color: rgba(202, 17, 0, 0.904);
 }
-.how-section1{
-  margin-top:-15%;
+
+.how-section1 {
+  margin-top: -15%;
   padding: 10%;
 }
-.how-section1 h4{
+.how-section1 h4 {
   color: #ffa500;
   font-weight: bold;
   font-size: 30px;
 }
-.how-section1 .subheading{
+.how-section1 .subheading {
   color: #3931af;
   font-size: 20px;
 }
-.how-section1 .row
-{
+.how-section1 .row {
   margin-top: 10%;
 }
-.how-img 
-{
+.how-img {
   text-align: center;
 }
-.how-img img{
+.how-img img {
   width: 40%;
 }
-.hyp{
+.hyp {
   text-decoration: none;
   color: aliceblue;
 }
-.hyp:hover
-{
-   color:aliceblue;
-}
-.work:hover
-{
+.hyp:hover {
   color: aliceblue;
 }
-.line
-{
-    border-style: dotted none none;
-    border-color: white;
-    border: 2px 0px 0px 0px;
-    width: 80%;
-    border-width: 1.5px;
-    margin-top: 40px;
-    opacity: 1;
+.work:hover {
+  color: aliceblue;
+}
+.line {
+  border-style: dotted none none;
+  border-color: white;
+  border: 2px 0px 0px 0px;
+  width: 80%;
+  border-width: 1.5px;
+  margin-top: 40px;
+  opacity: 1;
 }
