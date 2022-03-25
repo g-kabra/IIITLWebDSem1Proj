@@ -1,0 +1,129 @@
+.card-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  height: 400px;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  padding-top: 1%;
+}
+
+.sub-heading {
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.content{
+    padding-bottom: 5%;
+}
+
+.card:nth-of-type(1) {
+  height: 350px;
+  width: 23%;
+}
+
+.card:nth-of-type(3) {
+  height: 350px;
+  width: 23%;
+}
+
+.card:hover:nth-of-type(1) {
+  box-shadow: 0 4px 12px 0 rgb(255, 36, 72);
+}
+
+.card:hover:nth-of-type(2) {
+  box-shadow: 0 8px 16px 0 rgb(72, 121, 255);
+}
+
+.card:hover:nth-of-type(3) {
+  box-shadow: 0 8px 16px 0 rgb(48, 226, 16);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.main-footer {
+  width: 100%;
+  background-color: gray;
+  color: white;
+}
+
+.footer-sections {
+  text-align: left;
+  margin-top: 3%;
+}
+
+.footer-content {
+  font-size: 12px;
+  padding-top: 3%;
+  margin: auto;
+}
+
+.footer-about-us-content {
+  text-align: left;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.footer-content:nth-of-type(1) {
+  padding-right: 8%;
+}
+
+.footer-ending {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* .footer-copyright {
+    padding-right: 50%;
+  } */
+
+.footer-social-media {
+  font-size: 25px;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  padding: 7px 0;
+  background-color: gray;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.2s ease-in;
+}
+.fa-facebook:hover {
+  background-color: blue;
+}
+.fa-instagram:hover {
+  background-color: rgba(254, 114, 252, 1);
+}
+.fa-twitter:hover {
+  background-color: rgb(47, 196, 255);
+}
+.fa-youtube:hover {
+  background-color: rgba(202, 17, 0, 0.904);
+}
