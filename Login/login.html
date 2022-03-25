@@ -30,12 +30,13 @@
                     <button id="signup" class="btn btn-default btn-header" type="submit">Sign Up</button>
                 </div>
                 <div id="signup-tab" class="sign-up-information-container" style="display:none;">
-                    <div class="prompt-field">USERNAME</div>
-                    <input type="text" name="login-name" class="input-field" placeholder="Create a username">
-                    <div class="prompt-field">PASSWORD</div>
-                    <input type="password" name="login-password" class="input-field" placeholder="*************">
+                    <form action="/" method="POST">
+                    <div class="prompt-field">FIRST NAME</div>
+                    <input type="text" name="fName" class="input-field" placeholder="First Name">
+                    <div class="prompt-field">LAST NAME</div>
+                    <input type="text" name="lName" class="input-field" placeholder="Last Name">
                     <div class="prompt-field">E-MAIL ADDRESS</div>
-                    <input type="text" name="login-email" class="input-field" placeholder="Enter your e-mail address">
+                    <input type="email" name="email" class="input-field" placeholder="Enter your e-mail address">
                     <div class="terms-container">
                         <input type="checkbox" class="terms-checkbox" value="terms_checkbox">
                         <label class="terms-prompt">I accept the <span style="border-bottom: 1px solid #47C1B9">terms
@@ -44,13 +45,14 @@
 
                     <button class="btn btn-default btn-signup" type="submit">SIGN UP <i class="fa fa-arrow-right"
                             aria-hidden="true"></i></button>
+                    </form>
                 </div>
 
                 <div id="signin-tab" class="sign-up-information-container">
                     <div class="prompt-field">USERNAME</div>
-                    <input type="text" name="login-name" class="input-field" placeholder = "Enter Username">
+                    <input type="text" name="login-name" class="input-field">
                     <div class="prompt-field">PASSWORD</div>
-                    <input type="password" name="login-password" class="input-field" placeholder = "Enter Password">
+                    <input type="password" name="login-password" class="input-field">
                     <div class="terms-container">
                         <label class="terms-prompt"><span style="border-bottom: 1px solid #47C1B9">Forgot your
                                 password?</span></label>
