@@ -65,6 +65,10 @@
     border-right-style: solid; border-top-style: solid;
     
   }
+  .darkmode--activated .img-box {
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+  }
   
   .caption {
     position: absolute;
