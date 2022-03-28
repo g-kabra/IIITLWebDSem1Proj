@@ -22,7 +22,7 @@
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">UNIVERSITY XYZ</a>
+        <a class="navbar-brand" href="#">IIIT Lucknow</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -40,7 +40,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./About_Us/About_Us.html">About US</a>
+              <a class="nav-link" href="./About_Us/About_Us.html">About Us</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -59,14 +59,17 @@
                 <a class="dropdown-item" href="./Blog/blog.html">Blog</a>
                 <a class="dropdown-item" href="#">Recruitment</a>
                 <hr class="dropdown-divider" />
-                <a class="dropdown-item" href="#">Social Media links</a>
+                <a class="dropdown-item" href="#social-footer">Social Media links</a>
               </div>
             </li>
             <!--            <li class="nav-item">-->
             <!--              <a class="nav-link" aria-current="page" href="./Blog/blog.html">Blog</a>-->
             <!--            </li>-->
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contact Us/contact_us.html">Contact Us</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -81,17 +84,10 @@
           <button
             type="button"
             class="btn btn-outline-dark"
-            style="margin: 6px"
+            style="margin: 6px" onclick="window.location.href='/Login/login.html' "
           >
-            <a
-              href="./Login/login.html"
-              style="
-                color: rgb(124, 115, 115);
-                text-decoration: none;
-                margin: 2px;
-              "
-              >Sign In / Sign Up</a
-            >
+            Sign In / Sign Up
+            
           </button>
         </div>
       </div>
@@ -101,7 +97,7 @@
       <div
         id="carouselExampleIndicators"
         class="carousel slide carousel-fade"
-        data-ride="carousel"
+        data-ride="carousel" style="margin: 2%; margin-right: 5%; margin-left: 5%;"
       >
         <ol class="carousel-indicators">
           <li
@@ -154,10 +150,12 @@
           <h4>Lorem, ipsum.</h4>
           <p class="text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            quasi fuga expedita, deserunt esse voluptates.
+            quasi fuga expedita, deserunt esse voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, error?Lorem ipsum dolor 
+            sit amet, consectetur adipisicing elit. Doloremque quam excepturi labore earum nisi. Explicabo accusantium ut suscipit fugit 
+            itaque, blanditiis numquam repellendus nam, dignissimos ex, nostrum libero tempora neque?
           </p>
         </div>
-        <div class="col-md-6 how-img">
+        <div class="col-md-6 how-img im-class">
           <img
             src="https://www.bankrate.com/2014/05/26174958/Reasons-to-go-to-college.jpg?auto=webp&optimize=high&crop=16:9"
             class="img"
@@ -165,8 +163,8 @@
           />
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6 how-img">
+      <div class="row row2">
+        <div class="col-md-6 how-img im-class">
           <img
             src="http://www.butte.edu/_resources/img/home/campus-center.jpg"
             class="img"
@@ -176,8 +174,10 @@
         <div class="col-md-6">
           <h4>Lorem, ipsum.</h4>
           <p class="text-muted">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-            harum assumenda ratione dicta sit?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            quasi fuga expedita, deserunt esse voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, error?Lorem ipsum dolor 
+            sit amet, consectetur adipisicing elit. Doloremque quam excepturi labore earum nisi. Explicabo accusantium ut suscipit fugit 
+            itaque, blanditiis numquam repellendus nam, dignissimos ex, nostrum libero tempora neque?orem ipsum dolor sit amet 
           </p>
         </div>
       </div>
@@ -188,7 +188,7 @@
       <div class="container">
         <div class="row footer-content">
           <div class="col-sm-12 col-md-6 footer-sections">
-            <h6>About Us</h6>
+            <h6 class="footer-about-heading">About Us</h6>
             <p class = 'footer-about-us-content'>
               Donec nec quam id tortor hendrerit interdum. Etiam vitae tortor ut
               nunc dignissim facilisis. Donec eget nunc dui. Pellentesque sed
@@ -199,7 +199,7 @@
           </div>
           <div class="col-md-3 col-sm-6 footer-sections">
             <h6>Clubs</h6>
-            <ul>
+            <ul class="list">
               <li class="club-link-footer">
                 <a href="#" class="hyp">Crotonia</a>
               </li>
@@ -241,7 +241,7 @@
         <div class="footer-copyright">
           <p>This website is a copyright &copy; of IIITL 2022</p>
         </div>
-        <div class="footer-social-media">
+        <div class="footer-social-media" id="social-footer">
           <a href="#"><i class="fa-brands fa-facebook social-icon"></i></a>
           <a href="#"><i class="fa-brands fa-instagram social-icon"></i></a>
           <a href="#"><i class="fa-brands fa-twitter social-icon"></i></a>
@@ -271,6 +271,34 @@
         src="https://kit.fontawesome.com/b08f567665.js"
         crossorigin="anonymous"
       ></script>
+      <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <script>
+    function addDarkmodeWidget() {
+      new Darkmode().showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+  </script>
+  <script>
+      const options = {
+        bottom: '64px', // default: '32px'
+        right: 'unset', // default: '32px'
+        left: '32px', // default: 'unset'
+        time: '0.7s', // default: '0.3s'
+        mixColor: '#fff', // default: '#fff'
+        backgroundColor: '#fff' ,  // default: '#fff'
+        buttonColorDark: '#100f2c',  // default: '#100f2c'
+        buttonColorLight: '#fff', // default: '#fff'
+        saveInCookies: true, // default: true,
+        label: '🌓', // default: ''
+        autoMatchOsTheme: true // default: true
+      }
+
+      const darkmode = new Darkmode(options);
+      darkmode.showWidget();
+
+  </script>
     </div>
+
   </body>
+
 </html>
