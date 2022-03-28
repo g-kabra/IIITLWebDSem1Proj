@@ -351,3 +351,21 @@ body {
 .fa-youtube:hover{
   background-color: rgba(202, 17, 0, 0.904);
 }
+.navbar
+{
+  background-color:#ececec !important ;
+  padding: 20px;
+}
+.nav-link
+{
+  color: #265A5C !important;
+  font-weight: 600;
+  padding-top: 1em;
+  font-size: 17px;
+}
+.navbar-brand
+{
+  font-size: 30px !important;
+  font-weight: 600;
+  color: #3F7B70!important;
+}
