@@ -18,7 +18,7 @@
       padding: 8px;
       margin: 3%;
       margin-top: 0%;
-      color:  #639c91;
+      color:  #369ca0;
   }
 
   .subheading {
@@ -128,4 +128,7 @@
   .hyper
   {
     text-decoration: none;
+  }
+  .hyper:hover {
+    color:#35a4a8;
   }
