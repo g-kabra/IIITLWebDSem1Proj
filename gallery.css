@@ -18,7 +18,7 @@
       padding: 8px;
       margin: 3%;
       margin-top: 0%;
-      color: black;
+      color:  #639c91;
   }
 
   .subheading {
@@ -30,7 +30,7 @@
       margin: 2%;
   }
   a {
-    color: gray;
+    color: #1c4446 ;
     margin-left: 10px; margin-right: 10px;
   }
   
@@ -65,10 +65,10 @@
     border-right-style: solid; border-top-style: solid;
     
   }
-  .darkmode--activated .img-box {
+   .darkmode--activated .img-box {
     border-color: whitesmoke;
     background-color: whitesmoke;
-  }
+  } 
   
   .caption {
     position: absolute;
