@@ -1,14 +1,24 @@
-.header {
-   height: 100px;
-   background-color: white;
+body{
+  background-color:aliceblue;
 }
-
-
-
-/* body {
-  background-color: #d9d9d9;
-} */
-
+.navbar
+{
+  background-color:#ececec !important ;
+  padding: 20px;
+}
+.nav-link
+{
+  color: #265A5C !important;
+  font-weight: 600;
+  padding-top: 1em;
+  font-size: 17px;
+}
+.navbar-brand
+{
+  font-size: 30px !important;
+  font-weight: 600;
+  color: #3F7B70!important;
+}
 .card{
    background-image: linear-gradient(white, black);
    margin: 20px;
@@ -48,3 +58,122 @@
 .card-subtitle {
   font-weight: 600;
 }
+
+
+
+
+
+
+
+.main-footer {
+  width: 100%;
+  background-color: #DDDDDD;
+  color:#265A5C;
+  padding-bottom :30px;
+}
+
+.footer-sections {
+  text-align: left;
+  margin-top: 3%;
+}
+
+.footer-content {
+  font-size: 12px;
+  padding-top: 3%;
+  margin: auto;
+}
+
+.footer-about-us-content{
+  text-align: left;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  color: lightblue;
+}
+
+.footer-content:nth-of-type(1) {
+  padding-right: 8%;
+}
+
+.footer-ending {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* .footer-copyright {
+  padding-right: 50%;
+} */
+
+.footer-social-media {
+  font-size: 25px;
+}
+.footer-about-heading
+{
+  font-size: 25px;
+  color: #265A5C;
+}
+.footer-about-us-content
+{
+  font-size: 14px;
+  color: #3F7B70;
+  font-weight: 400;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  padding: 7px 0;
+  text-align: center;
+  border-radius: 50%;
+  color: #3F7B70;
+  transition: all 0.2s ease-in;
+}
+.fa-facebook:hover {
+  color: rgb(24, 24, 214);
+}
+.fa-instagram:hover {
+  color: rgb(224, 57, 135);
+}
+.fa-twitter:hover {
+  color: rgb(47, 196, 255);
+}
+.fa-youtube:hover {
+  color: rgba(202, 17, 0, 0.904);
+}
+.hyp {
+  text-decoration: none;
+  color:#265A5C;
+}
+.hyp:hover {
+  color:#3F7B70;
+}
+.work:hover {
+  color: aliceblue;
+}
+.line {
+  border-style: dotted none none;
+  border-color: white;
+  border: 2px 0px 0px 0px;
+  width: 80%;
+  border-width: 1.5px;
+  margin-top: 40px;
+  opacity: 1;
+}
+.img
+{
+  min-width: 220px;
+}
+@media only screen and (max-width: 768px) 
+{
+  .row2
+  {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
