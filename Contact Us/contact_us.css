@@ -20,29 +20,84 @@ body{
   font-weight: 600;
   color: #3F7B70!important;
 }
-
-
-
-.admissions
-{
-  border: 10px solid red;
-}
-.card-flex {
-  display: flex;
+.row{
   justify-content: space-around;
-  align-items: center;
+}
+
+
+.fancy-top{
+  height: 10px;
+  width: 100%;
+  border-bottom-left-radius: 2%;
+  background-color: red;
+  position: relative;
+  top: 0;
+  align-self: flex-start;
 }
 
 .card {
   height: 400px;
-  width: 25%;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   text-align: center;
+  /* padding: 0px; */
+  margin-bottom: 5%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  border: 10px solid red;
+  justify-content: center;
+}
+
+.card:nth-of-type(1){
+  border-top: 15px solid red;
+  border-bottom-left-radius: 20%;
+  border-top-left-radius: 20%;
+}
+
+.card:nth-of-type(2){
+  border-top: 15px solid blue;
+}
+
+.card:nth-of-type(3){
+  border-top: 15px solid green;
+  border-bottom-right-radius: 20%;
+  border-top-right-radius: 20%;
+}
+
+@media only screen and (max-width: 768px){
+  .card:nth-of-type(1){
+    border-top: 15px solid red;
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+  }
+  
+  .card:nth-of-type(2){
+    border-top: 15px solid blue;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+  }
+  
+  .card:nth-of-type(3){
+    border-top: 15px solid green;
+    border-radius: 15%;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .card:nth-of-type(1){
+    border-top: 15px solid red;
+    border-radius: 15%;
+  }
+  
+  .card:nth-of-type(2){
+    border-top: 15px solid blue;
+    border-radius: 15%;
+  }
+  
+  .card:nth-of-type(3){
+    border-top: 15px solid green;
+    border-radius: 15%;
+  }
 }
 
 .main-heading {
@@ -58,27 +113,6 @@ body{
     padding-bottom: 5%;
 }
 
-.card:nth-of-type(1) {
-  height: 350px;
-  width: 23%;
-}
-
-.card:nth-of-type(3) {
-  height: 350px;
-  width: 23%;
-}
-
-.card:hover:nth-of-type(1) {
-  box-shadow: 0 4px 12px 0 rgb(255, 36, 72);
-}
-
-.card:hover:nth-of-type(2) {
-  box-shadow: 0 8px 16px 0 rgb(72, 121, 255);
-}
-
-.card:hover:nth-of-type(3) {
-  box-shadow: 0 8px 16px 0 rgb(48, 226, 16);
-}
 
 .container {
   padding: 2px 16px;
