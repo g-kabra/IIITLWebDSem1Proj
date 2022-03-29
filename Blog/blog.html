@@ -197,54 +197,70 @@
 
     <footer class="main-footer">
         <!-- This will have the footer with more links and contact info -->
-        <div class="links">
-            <table class="footer-table">
-                <tr>
-                    <td class="footer-sections">About Us</td>
-                    <td class="footer-sections">Clubs</td>
-                    <td class="footer-sections">Quick Links</td>
-                </tr>
-                <tr>
-                    <td class="footer-content">
-                        Donec nec quam id tortor hendrerit interdum. Etiam vitae tortor ut
-                        nunc dignissim facilisis. Donec eget nunc dui. Pellentesque sed
-                        lectus lobortis libero pretium fermentum eget eu orci. Maecenas
-                        augue nulla, finibus eu bibendum et, rutrum sed tellus. Maecenas
-                        vitae est a ex elementum dignissim eu ac elit. Maecenas elementum.
-                    </td>
-                    <td class="footer-content">
-                        <ul>
-                            <li class="club-link-footer">Crotonia</li>
-                            <li class="club-link-footer">Equinox</li>
-                            <li class="club-link-footer">AfterDark</li>
-                            <li class="club-link-footer">Estrella</li>
-                            <li class="club-link-footer">Zephyr</li>
-                        </ul>
-                    </td>
-                    <td class="footer-content">
-                        <ul>
-                            <li class="quick-link-footer">About Us</li>
-                            <li class="quick-link-footer">Contact Us</li>
-                            <li class="quick-link-footer">Blog</li>
-                            <li class="quick-link-footer">Gallery</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
+        <div class="container">
+          <div class="row footer-content">
+            <div class="col-sm-12 col-md-6 footer-sections">
+              <h6 class="footer-about-heading">About Us</h6>
+              <p class = 'footer-about-us-content'>
+                Donec nec quam id tortor hendrerit interdum. Etiam vitae tortor ut
+                nunc dignissim facilisis. Donec eget nunc dui. Pellentesque sed
+                lectus lobortis libero pretium fermentum eget eu orci. Maecenas
+                augue nulla, finibus eu bibendum et, rutrum sed tellus. Maecenas
+                vitae est a ex elementum dignissim eu ac elit. Maecenas elementum.
+              </p>
+            </div>
+            <div class="col-md-3 col-sm-6 footer-sections">
+              <h6>Clubs</h6>
+              <ul class="list">
+                <li class="club-link-footer">
+                  <a href="#" class="hyp">Crotonia</a>
+                </li>
+                <li class="club-link-footer">
+                  <a href="#" class="hyp">Equinox</a>
+                </li>
+                <li class="club-link-footer">
+                  <a href="#" class="hyp">AfterDark</a>
+                </li>
+                <li class="club-link-footer">
+                  <a href="#" class="hyp">Estrella</a>
+                </li>
+                <li class="club-link-footer">
+                  <a href="#" class="hyp">Zephyr</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 footer-sections">
+              <h6>Quick Links</h6>
+              <ul>
+                <li class="quick-link-footer">
+                  <a href="../About_Us/About_Us.html" class="hyp">About Us</a>
+                </li>
+                <li class="quick-link-footer">
+                  <a href="../Contact Us/contact_us.html" class="hyp">Contact Us</a>
+                </li>
+                <li class="quick-link-footer">
+                  <a href="/Blog/blog.html" class="hyp">Blog</a>
+                </li>
+                <li class="quick-link-footer">
+                  <a href="../gallery.html" class="hyp">Gallery</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <hr style="margin: auto" />
+        <hr width="80%" style="margin: 1% auto;" class="line" />
         <div class="footer-ending">
-        <span class="footer-copyright">
-          <p>This website is a copyright &copy; of IIITL 2022</p>
-        </span>
-            <span class="footer-social-media">
-          <a href = "#"><i class="fa-brands fa-facebook social-icon"></i></a>
-          <a href = "#"><i class="fa-brands fa-instagram social-icon"></i></a>
-          <a href = "#"><i class="fa-brands fa-twitter social-icon"></i></a>
-          <a href = "#"><i class="fa-brands fa-youtube social-icon"></i></a>
-        </span>
+          <div class="footer-copyright">
+            <p>This website is a copyright &copy; of IIITL 2022</p>
+          </div>
+          <div class="footer-social-media" id="social-footer">
+            <a href="#"><i class="fa-brands fa-facebook social-icon"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram social-icon"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter social-icon"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube social-icon"></i></a>
+          </div>
         </div>
-    </footer>
+      </footer>
     <script
             src="https://kit.fontawesome.com/b08f567665.js"
             crossorigin="anonymous"
@@ -268,5 +284,36 @@
         <script type="text/javascript" src="//use.typekit.net/wtt0gtr.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="./blog.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener('load', addDarkmodeWidget);
+    </script>
+    <script>
+        const options = {
+          bottom: '32px', // default: '32px'
+          right: '32px', // default: '32px'
+          left: 'unset', // default: 'unset'
+          time: '0.7s', // default: '0.3s'
+          mixColor: '#fff', // default: '#fff'
+          backgroundColor: '#fff' ,  // default: '#fff'
+          buttonColorDark: '#100f2c',  // default: '#100f2c'
+          buttonColorLight: '#fff', // default: '#fff'
+          saveInCookies: true, // default: true,
+          label: '🌓', // default: '' '🌓'
+          autoMatchOsTheme: true // default: true
+        }
+  
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+  
+    </script>
+
+
+
 </body>
 </html>
