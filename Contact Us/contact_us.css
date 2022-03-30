@@ -40,7 +40,7 @@ body{
 
 .card:nth-of-type(1){
   height: 350px;
-  border-top: 15px solid green;
+  border-top: 15px solid #3F7B70;
   border-bottom-left-radius: 20%;
   border-top-left-radius: 20%;
 }
@@ -52,7 +52,7 @@ body{
 
 .card:nth-of-type(3){
   height: 350px;
-  border-top: 15px solid green;
+  border-top: 15px solid #3F7B70;
   border-bottom-right-radius: 20%;
   border-top-right-radius: 20%;
 }
@@ -194,4 +194,25 @@ body{
 }
 .fa-youtube:hover {
   color: rgba(202, 17, 0, 0.904);
+}
+.darkmode--activated .fa-facebook:hover {
+  color: rgb(193, 223, 23);
+}
+.darkmode--activated .fa-instagram:hover {
+  color: rgb(30, 172, 42);
+}
+.darkmode--activated .fa-twitter:hover {
+  color: rgb(167, 12, 12);
+}
+.darkmode--activated .fa-youtube:hover {
+  color: rgba(20, 216, 230, 0.904);
+}
+.darkmode--activated .card.col-12.col-sm-10.col-md-3 {
+  background-color: rgb(218, 216, 216);
+}
+.darkmode--activated .card.col-12.col-sm-5.col-md-4 {
+  background-color: rgb(218, 216, 216);
+}
+.darkmode--activated .card.col-12.col-sm-5.col-md-3 {
+  background-color: rgb(218, 216, 216);
 }
