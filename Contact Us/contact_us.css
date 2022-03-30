@@ -40,14 +40,14 @@ body{
 
 .card:nth-of-type(1){
   height: 350px;
-  border-top: 15px solid red;
+  border-top: 15px solid green;
   border-bottom-left-radius: 20%;
   border-top-left-radius: 20%;
 }
 
 .card:nth-of-type(2){
   border-radius: 5%;
-  border-top: 15px solid blue;
+  border-top: 15px solid #265A5C;
 }
 
 .card:nth-of-type(3){
@@ -116,8 +116,10 @@ body{
 
 .main-footer {
   width: 100%;
-  background-color: gray;
-  color: white;
+  background-color: #DDDDDD;
+  color:#265A5C;
+  padding-bottom :30px;
+
 }
 
 .footer-sections {
@@ -169,21 +171,27 @@ body{
   width: 40px;
   height: 40px;
   padding: 7px 0;
-  background-color: gray;
   text-align: center;
   border-radius: 50%;
-  color: white;
+  color: #3F7B70;
   transition: all 0.2s ease-in;
 }
+#hyp {
+  text-decoration: none;
+  color:#265A5C;
+}
+#hyp:hover {
+  color:#3F7B70;
+}
 .fa-facebook:hover {
-  background-color: blue;
+  color: rgb(24, 24, 214);
 }
 .fa-instagram:hover {
-  background-color: rgba(254, 114, 252, 1);
+  color: rgb(224, 57, 135);
 }
 .fa-twitter:hover {
-  background-color: rgb(47, 196, 255);
+  color: rgb(47, 196, 255);
 }
 .fa-youtube:hover {
-  background-color: rgba(202, 17, 0, 0.904);
+  color: rgba(202, 17, 0, 0.904);
 }
