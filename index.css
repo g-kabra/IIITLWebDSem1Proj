@@ -169,3 +169,16 @@
     flex-direction: column-reverse;
   }
 }
+
+.darkmode--activated .fa-facebook:hover {
+  color: rgb(193, 223, 23);
+}
+.darkmode--activated .fa-instagram:hover {
+  color: rgb(30, 172, 42);
+}
+.darkmode--activated .fa-twitter:hover {
+  color: rgb(167, 12, 12);
+}
+.darkmode--activated .fa-youtube:hover {
+  color: rgba(20, 216, 230, 0.904);
+}
