@@ -19,21 +19,7 @@ body {
     margin: 48px auto;
     width: 60rem;
   }
-  @media screen and (min-width: 480px) {
-    .blog-container{
-        width: 28rem;
-    }
-  }
-  @media screen and (min-width: 767px) {
-    .blog-container{
-        width: 40rem;
-    }
-  }
-  @media screen and (min-width: 959px) {
-    .blog-container{
-        width: 50rem;
-    }
-  }
+  
   .blog-container a {
     color: #4d4dff;
     text-decoration: none;
@@ -409,4 +395,19 @@ body {
 }
 .darkmode--activated .fa-youtube:hover {
   color: rgba(20, 216, 230, 0.904);
+}
+@media screen and (min-width: 480px) {
+  .blog-container{
+      width: 200px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .blog-container{
+      width: 480px;
+  }
+}
+@media screen and (min-width: 959px) {
+  .blog-container{
+      width: 767px;
+  }
 }
