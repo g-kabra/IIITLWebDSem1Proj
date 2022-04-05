@@ -21,8 +21,7 @@ It consists of Home page, Login page, Gallery page, About us page, Blog page and
 * Bodyparser
 * Nodeman connected with mail chimp's server
 
-<br /><br />
-# Contributors
+# Contributors <br />
 1)Rahul Jamwal (LCI2021024) ( https://github.com/rahul-jamwal )  <br />
 2)Vidisha Agarwal (LCI2021018) ( https://github.com/VidishaAG )  <br />
 3)Harsh Golchha (LCI2021002) ( https://github.com/HarshGolchha )  <br />
