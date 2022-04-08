@@ -19,6 +19,11 @@
   font-weight: 600;
   color: #3F7B70!important;
 }
+
+.hero{
+  padding: 0;
+  margin: 0;
+}
 .carousel-item img {
   width: 100%;
   object-fit: cover;
