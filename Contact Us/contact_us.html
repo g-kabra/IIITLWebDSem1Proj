@@ -126,6 +126,17 @@
         </div>
       </div>
     </div>
+    <a href = "#" class="CustomerCare" id = "openPopup">
+      <button id = "CustomerCareButton" >Contact Student Care</button>
+    </a>
+    <div id="overlay"></div>
+    <div id="popup">
+      <button id="popupclose" class = "popupclosebutton">X</button>
+      <div class="popupcontent">
+          <h1 class = "popupNumber">You can contact student care on <br>+91-XX-XX-XX-XX</h1>
+          <a href = "#" class = "chatsitelink"><button class = "chatwithcare">Chat with Student Care agent</button></a>
+      </div>
+  </div>
     <footer class="main-footer">
       <!-- This will have the footer with more links and contact info -->
       <div class="container">
@@ -194,6 +205,17 @@
     </footer>
     <!-- JS links-->
     <div class="scripts">
+      <script>
+        popupclose.onclick = function() {
+          overlay.style.display = 'none';
+          popup.style.display = 'none';
+        };
+	// Show Overlay and Popup;
+        openPopup.onclick = function() {
+          overlay.style.display = 'block';
+          popup.style.display = 'block';
+        }
+      </script>
       <script src="./index.js"></script>
       <script
         src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
